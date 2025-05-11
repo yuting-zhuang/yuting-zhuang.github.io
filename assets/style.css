@@ -46,7 +46,7 @@ video{
 
 /*contains main+footer*/
 .wrapper{
-	min-height: 80vh;
+	min-height: 93vh;
 	display: flex;
 	flex-direction: column;
 }
@@ -59,6 +59,10 @@ header{
 	font-size: 0.9rem;
 	font-weight: 500;
 	color: white;
+	font-family: "gesta", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
 }
 
 /*5 projects*/
@@ -72,11 +76,14 @@ main{
 }
 
 main h2{
-	font-size: 1.8rem;
-	font-weight: bold;
-	margin-bottom: 2rem;
-	text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	margin-bottom: 3rem;
+	/* margin-top: 0rem; */
+	text-shadow: 0 0 5px rgb(255, 255, 255);
 	color: white;
+	font-family: "anisette-std", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 2rem;
 }
 
 main ul{
@@ -87,14 +94,17 @@ main ul{
 
 main li{
 	margin: 1rem 0;
+	margin-bottom: 2rem;
 }
 
 main a p{
 	color: white;
-	font-size: 1.2rem;
-	font-weight: 500;
 	margin: 0;
-		text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+	text-shadow: 0 0 5px rgb(255, 255, 255);
+	font-family: "anisette-std", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 1.2rem;
 }
 
 footer{
@@ -102,4 +112,7 @@ footer{
 	padding: 1rem 1.5rem;
 	font-size: 0.8rem;
 	color: white;
+	font-family: "gesta", sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
