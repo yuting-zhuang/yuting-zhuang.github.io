@@ -107,6 +107,15 @@ main a p{
 	font-size: 1.2rem;
 }
 
+main a{
+	display: inline-block;
+	transition: transform 0.1s ease;
+}
+
+main a:hover{
+	transform:scale(1.1);
+}
+
 footer{
 	text-align: left;
 	padding: 1rem 1.5rem;
